@@ -1,0 +1,111 @@
+
+.main {
+  display: flex;
+   background-color: beige;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+   border-bottom: 1px solid #00000024;
+  flex-wrap: wrap; /* بيساعد العناصر تنزل تحت بعض بدل ما تخرج بره الشاشة */
+}
+
+
+.logo{ color: rgb(87, 53, 11);
+    font-size: 4vw;
+    font-weight: bold;
+    margin-top: 7vh;
+      align-content: center;
+}
+
+.nav{margin-top: 7vh;
+   gap: 2vw;
+    display: flex;
+
+    list-style: none;
+    font-size: 2vw;
+   
+    padding: 1vh;
+}
+.nav li {
+   
+    align-content: center;
+     color: rgb(87, 53, 11);
+}
+.nav a{
+ text-decoration: none;
+}
+.nav li:hover{
+   background-color: rgb(174 144 104 / 36%);
+    border-bottom: 2px solid #685916;
+    font-weight: bold;
+    height: 50px;
+}
+.buttons{
+    display: flex;
+    gap:2px;
+  
+   
+    border-radius: 2px;
+}
+.buttons button{height: 7vh;
+    background-color: #68591682;
+    color: white;
+}
+span{
+ height: fit-content;
+    background-color: #685916a3;
+    color: white;
+    border-radius: 1vw;
+    text-Align: center;
+    font-Weight: bold;
+    border: 1px solid rgb(87 53 11 / 40%);
+    padding: 2vw;
+}
+
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    gap: 10px;
+     max-height: 210px;
+  }
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 0px;
+    padding: 0;
+   
+  }
+  .buttons button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #68591682;
+    color: white;
+  }
+}
+@media (max-width: 441px) {
+  .main {
+    flex-direction: column;
+    gap: 10px;
+    max-height: 1000px;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 0px;
+    padding: 0;
+   
+  }
+  .buttons button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #68591682;
+    color: white;
+  }
+}

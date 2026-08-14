@@ -1,0 +1,125 @@
+/* التنسيق الأساسي لشاشات الكمبيوتر/التابلت الكبير */
+.main {
+    display: grid;
+    /* خلي العرض متوازن: الكلام ياخد مساحة أكبر والصورة العرض المناسب */
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
+    align-items: center; /* سنترة الكلام رأسياً مع الصورة */
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    
+   
+}
+
+/* تنسيق Container النص */
+.main .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #2b2b2b;
+}
+
+.main h2 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #4a4a4a;
+}
+.main h3{
+   flex-wrap: balance;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(116 83 21);
+    background-color: rgba(87, 53, 11, 0.05);
+    font-weight: 600;
+    border-radius: 12px;
+    box-shadow: 10px -4px 0 rgb(116 83 21 / 45%);
+    height: 7vh;
+}
+
+.main p {
+    font-size: 1.1rem;
+    line-height: 1.6; /* مسافة مريحة بين الأسطر عشان النص ما يتداخلش */
+    color: #555;
+}
+
+/* تنسيق قسم الاتصال المصغر تحت النص */
+.contactinfo {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: rgb(105, 76, 39);
+}
+
+/* تنسيق الصورة */
+.image {
+    background-image: url(/images/contact.jpg);
+    background-size: cover; /* cover أفضل من contain عشان يملأ الكارت بنظافة */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    border-radius: 12px; /* حواف ناعمة تليق بديزاين الحلويات */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+
+
+/* ========================================== */
+/* Media Queries للموبايل والترتيب */
+/* ========================================== */
+
+/* شاشات التابلت والموبايل (أقل من 768px) */
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr; /* يخلي الصورة والنص فوق بعض */
+        gap: 2rem;
+        margin: 1rem auto;
+    }
+
+    /* نخلي الصورة تظهر الأول فوق، وبعدها النص وتحته وسائل التواصل */
+    .image {
+        order: -1; 
+        height: 300px;
+    }
+
+    .main h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .main h2 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .main p {
+        font-size: 1rem;
+        text-align: center; /* توحيد محاذاة النص في الموبايل */
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+}
+
+/* شاشات الموبايل الصغيرة (أقل من 480px) */
+@media (max-width: 480px) {
+    .main {
+        width: 95%;
+        padding: 0 0.5rem;
+    }
+
+    .image {
+        height: 220px;
+    }
+
+   
+}

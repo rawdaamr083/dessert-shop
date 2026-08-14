@@ -1,0 +1,80 @@
+.mainbest {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cardbest {
+  background-color: rgb(87 53 11 / 9%);
+  transition: all 0.3s ease;
+  border-radius: 18px;
+  border: 1px solid rgb(87 53 11 / 24%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* عشان يخلي الزرار تحت خالص في مستوى واحد */
+  padding: 16px;
+  height: 100%; /* شيلنا min-height: 100vh وخليناها ارتفاع يناسب المحتوى */
+}
+
+.cardbest:hover {
+  box-shadow: 0px 4px 15px rgba(116, 83, 21, 0.3);
+  transform: translateY(-3px);
+}
+
+/* 🖼️ تظبيط الصورة لتأخذ عرض الكارت بالكامل بدون تمطيط */
+.cardbest img {
+  width: 100%; /* عشان تاخد عرض الكارت كاملاً */
+  height: 180px; /* طول مناسب جداً لكروت المنتجات */
+  object-fit: cover; /* تمنع تشويه الصورة */
+  border-radius: 12px;
+}
+
+.title {
+  color: rgb(116, 83, 21);
+  font-size: 1.2rem;
+  margin: 12px 0 6px 0;
+}
+
+.description {
+  font-weight: 500;
+  color: rgba(116, 83, 21, 0.8);
+  line-height: 1.5;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-weight: bold;
+  color: rgb(116, 83, 21);
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.button {
+  font-weight: bold;
+  border-radius: 12px;
+  color: whitesmoke;
+  width: 100%; /* الزرار ياخد عرض الكارت بيبقى أعمل وأشيك */
+  padding: 10px;
+  background-color: rgb(116 83 21 / 85%);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: rgb(116, 83, 21);
+  box-shadow: 0px 4px 10px rgba(116, 83, 21, 0.4);
+}
+
+/* 📱 الموبايل للشاشات الصغيرة */
+@media (max-width: 480px) {
+  .mainbest {
+    grid-template-columns: 1fr; /* كارت واحد في الصف */
+    padding: 10px;
+    gap: 15px;
+  }
+}

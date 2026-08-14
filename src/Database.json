@@ -1,0 +1,165 @@
+{
+  "dessertsData": [
+    {
+      "id": 1,
+      "title": "Classic Nabulsi Kunafa",
+      "description": "Crispy golden shredded pastry filled with rich melted Nabulsi cheese, soaked in sweet aromatic syrup.",
+      "price": 180,
+      "image": "/images/knafa.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Nut Mixed Basbousa",
+      "description": "Traditional Egyptian semolina cake baked with pure ghee, garnished with roasted almonds and hazelnuts.",
+      "price": 150,
+      "image": "/images/basbosa.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Egyptian Om Ali",
+      "description": "Warm baked puff pastry pudding drenched in rich cream, fresh milk, raisins, and toasted nuts.",
+      "price": 120,
+      "image": "/images/amali.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Cream Baked Rice Pudding",
+      "description": "Creamy Egyptian rice pudding cooked with organic milk, topped with a caramelized baked cream layer.",
+      "price": 90,
+      "image": "/images/mahrok.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Pistachio Baklava Fingers",
+      "description": "Flaky layers of crispy phyllo dough stuffed with finely ground premium Gaziantep pistachios.",
+      "price": 220,
+      "image": "/images/golash.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Stuffed Crispy Qatayef",
+      "description": "Golden fried sweet dumplings filled with whipped fresh cream (Ashta) and crushed pistachios.",
+      "price": 130,
+      "image": "/images/Qatayef.webp"
+    },
+    {
+      "id": 7,
+      "title": "Waffle with Berries",
+      "description": "Freshly baked golden waffle topped with wild berries, powdered sugar, and sweet maple syrup.",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 8,
+      "title": "Vanilla Bean Crème Brûlée",
+      "description": "Rich custard base topped with a contrasting layer of hard burnt caramelized sugar.",
+      "price": 175,
+      "image": "https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 9,
+      "title": "Macaron Mix (Set of 5)",
+      "description": "Assorted French delicate meringue-based confections filled with buttercream and ganache.",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 10,
+      "title": "Classic Tiramisu",
+      "description": "Coffee-flavoured Italian dessert made of ladyfingers dipped in coffee, layered with whipped eggs and mascarpone.",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 11,
+      "title": "Lemon Meringue Pie",
+      "description": "Crispy pie crust filled with smooth lemon curd and topped with fluffy browned meringue.",
+      "price": 125,
+      "image": "https://images.unsplash.com/photo-1519869325930-281384150729?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 12,
+      "title": "Red Velvet Cake",
+      "description": "Moist dark red chocolate sponge layer cake coated with soft and rich cream cheese frosting.",
+      "price": 110,
+      "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 13,
+      "title": "Salted Caramel Brownie",
+      "description": "Dense fudgy chocolate brownie drizzled with house-made salted caramel sauce.",
+      "price": 135,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 14,
+      "title": "Chocolate Eclair",
+      "description": "Choux pastry filled with vanilla cream and topped with glossy dark chocolate icing.",
+      "price": 85,
+      "image": "https://images.unsplash.com/photo-1621236378699-8597faf6a176?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 15,
+      "title": "Strawberry Cheesecake",
+      "description": "Classic New York baked cheesecake topped with fresh strawberries and sweet strawberry glaze.",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 16,
+      "title": "Mango Ice Cream Sundae",
+      "description": "Double scoops of rich mango gelato served with fresh mango chunks and whipped cream.",
+      "price": 105,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 17,
+      "title": "Cinnamon Roll with Cream Cheese",
+      "description": "Soft baked cinnamon bun smothered in warm sweet cream cheese frosting and walnuts.",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 18,
+      "title": "Glazed Chocolate Donut",
+      "description": "Fluffy yeast-raised donut dipped in rich dark chocolate glaze and rainbow sprinkles.",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 19,
+      "title": "Lotus Biscoff Pancakes",
+      "description": "Fluffy pancake stack layered with warm Lotus Biscoff spread and crushed cookies.",
+      "price": 165,
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 20,
+      "title": "Pistachio Croissant",
+      "description": "Buttery French croissant filled with velvety pistachio cream and topped with crushed pistachios.",
+      "price": 110,
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 21,
+      "title": "Molten Chocolate Lava Cake",
+      "description": "Warm dark chocolate cake with a molten chocolate center, served with vanilla ice cream.",
+      "price": 155,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 22,
+      "title": "Nutella Crepe Roll",
+      "description": "Thin French crepe rolled and generously stuffed with warm Nutella and banana slices.",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=500&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 23,
+      "title": "Chocolate Chip Cookie Skillet",
+      "description": "Gooey freshly-baked jumbo chocolate chip cookie topped with salted caramel and vanilla gelato.",
+      "price": 130,
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&auto=format&fit=crop&q=80"
+    }
+  ]
+}

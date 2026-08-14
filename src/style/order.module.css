@@ -1,0 +1,26 @@
+.orderContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     display: block;
+}
+   
+
+.button1{height: fit-content;
+
+    background-color: #685916e3;
+    color: white;
+    border-radius: 1vw;
+    text-Align: center;
+    font-Weight: bold;
+    border: 1px solid rgb(87 53 11 / 40%);
+    padding: 10px;
+    width: 30vw;
+display: block;
+    margin: 10px auto;
+}
+
+
+
+ 
+
