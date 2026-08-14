@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import {  useState } from 'react';
 import s from "../style/sign.module.css"
 import { useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
@@ -53,7 +53,7 @@ import { context1 } from '../context/Logcontext';
           type="text" 
           placeholder="Enter your name" 
           value={nameInput}
-          ref={value}
+       
           onChange={(e) => setNameInput(e.target.value)}
         />
         </div>
