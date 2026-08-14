@@ -26,7 +26,7 @@ else{
 
   return (
     <div style={{width:"100%"}} className={order.orderContainer}>
-<img src="/images/istockphoto-139885298-1024x1024.jpg"></img>
+<img src="/images/istockphoto-139885298-1024x1024.jp"></img>
 <button className={order.button1} onClick={check}>OrderNow</button>
 
 </div>
